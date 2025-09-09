@@ -1,5 +1,5 @@
 <template>
-    <Waline :serverURL="serverURL" :path="path" :dark="dark" :markdown="true" />
+    <Waline :serverURL="serverURL" :path="path" :dark="dark" :key="path" :markdown="true" />
 </template>
 
 <script setup>
@@ -9,8 +9,11 @@ import { useRoute } from 'vitepress';
 import '@waline/client/style';
 
 const serverURL = 'https://waline.davidingplus.cn';
-const path = computed(() => useRoute().path);
 const dark = 'html[class="dark"]';
+// 获取响应式路由对象 route，并创建响应式 path，路由变化时自动更新。
+// 这两行必须分开写，否则 Layout 单例里 computed 不会刷新。
+const route = useRoute();
+const path = computed(() => route.path);
 </script>
 
 <style scoped>
