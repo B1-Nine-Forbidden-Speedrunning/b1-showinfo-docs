@@ -2,6 +2,7 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import { useWaline } from 'vitepress-theme-website'
 import './style.css'
 
 export default {
@@ -13,5 +14,10 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     // ...
+  },
+  setup() {
+    useWaline({
+      serverURL: 'https://waline.davidingplus.cn'
+    })
   }
 } satisfies Theme

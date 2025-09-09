@@ -10,12 +10,13 @@
     "node": "^20.19.0 || >=22.12.0"
   },
   "devDependencies": {
+    "@waline/client": "^3.6.0",
     "gray-matter": "^4.0.3",
     "markdown-it": "^14.1.0",
     "vitepress": "^2.0.0-alpha.6",
     "vitepress-plugin-group-icons": "^1.6.3",
     "vitepress-plugin-llms": "^1.7.3",
-    "@waline/client": "^3.6.0"
+    "vitepress-theme-website": "^1.0.8"
   },
   "directories": {
     "doc": "docs"
