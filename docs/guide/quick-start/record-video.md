@@ -93,7 +93,7 @@ OBS 能在 Steam 商店中找到，直接下载即可。
 
 ## 键鼠映射
 
-键盘映射需要用到一个 OBS 插件 [Input Overlay](https://obsproject.com/forum/resources/input-overlay.552/)，它能在直播中显示键盘、鼠标和手柄的输入情况。它会新增一个来源，用于可视化输入。
+键鼠映射需要用到一个 OBS 插件 [Input Overlay](https://obsproject.com/forum/resources/input-overlay.552/)，它能在直播中显示键盘、鼠标和手柄的输入情况。它会新增一个来源，用于可视化输入。
 
 这个插件通过纹理（texture）和配置文件来生成覆盖层。这意味着你可以自行配置在屏幕上显示哪些按键、它们的排列方式以及外观。默认情况下，插件已经自带了鼠标、键盘和手柄的预设文件。这些预设文件位于 GitHub Release 页面中的 `presets` 压缩包内。在 OBS 中创建一个 “Input Overlay” 来源时，你可以将其指向这些预设文件，或者指向你自己制作的配置文件。
 
@@ -168,6 +168,8 @@ https://ezgame.cc/tools/gamepadviewer.com/?p=1&s=0
 最终录制出来的效果大致如下：
 
 ![image-20250830133603428](https://image.davidingplus.cn/images/2025/08/30/image-20250830133603428.png)
+
+（后面部分暂时没时间写，先这样吧，反正暂时不影响大家伙凹成绩。）
 
 ## 回放缓存
 
