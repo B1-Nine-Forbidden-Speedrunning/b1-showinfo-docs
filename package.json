@@ -2,9 +2,9 @@
   "type": "module",
   "name": "b1-showinfo-docs",
   "version": "1.0.0",
-  "description": "BlackMythWukong's Mod ShowInfo",
+  "description": "BlackMythWukong's Mod ShowInfo WebSite",
   "author": "DavidingPlus",
-  "homepage": "https://github.com/DavidingPlus/b1-showinfo-docs",
+  "homepage": "https://github.com/B1-9Ban-BossRush/b1-showinfo-docs",
   "license": "MIT",
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
