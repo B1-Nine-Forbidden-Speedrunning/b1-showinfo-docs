@@ -1,5 +1,5 @@
 <template>
-    <Waline :serverURL="serverURL" :path="path" :dark="dark" />
+    <Waline :serverURL="serverURL" :path="path" :dark="dark" :markdown="true" />
 </template>
 
 <script setup>
@@ -8,7 +8,7 @@ import { computed } from 'vue';
 import { useRoute } from 'vitepress';
 import '@waline/client/style';
 
-const serverURL = 'https://waline.vercel.app';
+const serverURL = 'https://waline.davidingplus.cn';
 const path = computed(() => useRoute().path);
 const dark = 'html[class="dark"]';
 </script>
