@@ -14,10 +14,11 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     // ...
-  },
-  setup() {
-    useWaline({
-      serverURL: 'https://waline.davidingplus.cn'
-    })
   }
+  // },
+  // setup() {
+  //   useWaline({
+  //     serverURL: 'https://waline.davidingplus.cn'
+  //   })
+  // }
 } satisfies Theme
