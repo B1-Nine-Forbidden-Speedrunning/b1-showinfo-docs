@@ -39,6 +39,7 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'B1 ShowInfo Docs' }],
     ['meta', { property: 'og:url', content: 'https://b1.davidingplus.cn/' }],
+    ['script', { src: '/live2d.js' }]
   ],
 
   themeConfig: {
