@@ -120,7 +120,8 @@ function guideSidebar(): DefaultTheme.SidebarItem[] {
             text: '开始',
             collapsed: false,
             items: [
-                { text: '简介', link: '/' }
+                { text: '简介', link: '/' },
+                { text: '更新日志', link: '/changelog' }
             ]
         },
         {
