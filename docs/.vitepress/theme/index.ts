@@ -2,7 +2,7 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import { useWaline, useLive2d } from './plugin'
+import { useWaline, useLive2d } from './extension'
 import './style.css'
 
 export default {
