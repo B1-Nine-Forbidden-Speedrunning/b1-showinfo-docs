@@ -12,7 +12,9 @@
 
 在 v1.0 版本基础上，增加了计时器的功能，可以看到截止目前的用时。
 
-下载链接：
+下载链接如下：
+
+- [v1.1-dev.3](https://lzx0626.lanzouq.com/iTV1i35ugrjg)：优化了一下计时器，倒数 3 2 1 的时候会显示。
 
 - [v1.1-dev.2](https://lzx0626.lanzouq.com/iiQhE35s2adc)
 
