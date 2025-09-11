@@ -14,6 +14,8 @@
 
 下载链接如下：
 
+- [v1.1-dev.5](https://lzx0626.lanzouq.com/i3ZcM35xl6wb)：修复重新挑战不清空计时历史的问题。
+
 - [v1.1-dev.4](https://lzx0626.lanzouq.com/iOdJ535vqdva)：增加了每个 BOSS 的用时。
 
 - [v1.1-dev.3](https://lzx0626.lanzouq.com/iTV1i35ugrjg)：优化了一下计时器，倒数 3 2 1 的时候会显示。
